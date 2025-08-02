@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_apis_project/views/screens/get_api_screen.dart';
 import 'package:test_apis_project/views/screens/get_image_api_screen.dart';
+import 'package:test_apis_project/views/screens/get_list_screen.dart';
 import 'package:test_apis_project/views/screens/get_single_user_data_screen.dart';
 import 'package:test_apis_project/views/screens/get_user_post_screen.dart';
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GetSingleUserDataScreen()
+      home: GetListScreen()
+      //GetSingleUserDataScreen()
       //GetUserPostScreen()
       //GetImageApiScreen()
       //GetApiScreen(),
