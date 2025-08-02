@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_apis_project/views/screens/get_api_screen.dart';
+import 'package:test_apis_project/views/screens/get_image_api_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GetApiScreen(),
+      home: GetImageApiScreen()
+      //GetApiScreen(),
     );
   }
 }
