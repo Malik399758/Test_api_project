@@ -5,6 +5,7 @@ import 'package:test_apis_project/views/screens/get_list_screen.dart';
 import 'package:test_apis_project/views/screens/get_single_user_data_screen.dart';
 import 'package:test_apis_project/views/screens/get_user_post_screen.dart';
 import 'package:test_apis_project/views/screens/post_api/post_api_1_screen.dart';
+import 'package:test_apis_project/views/screens/simple_contain/cart_item/first_screen.dart';
 import 'package:test_apis_project/views/screens/simple_contain/s1_screen.dart';
 
 void main() {
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen()
+      home: FirstScreen()
+      //HomeScreen()
       //PostApi1Screen()
       //GetListScreen()
       //GetSingleUserDataScreen()
