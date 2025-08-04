@@ -15,6 +15,8 @@ class _UserGetApiScreenState extends State<UserGetApiScreen> {
   //List<Map<String,dynamic>> list = [];
   List<UserApiModel> list = [];
 
+
+
   Future<void>? _getData;
   // url
   var url = 'https://jsonplaceholder.typicode.com/posts';
