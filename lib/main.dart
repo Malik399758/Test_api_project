@@ -14,10 +14,11 @@ import 'package:test_apis_project/views/screens/shared_preferences_module/shared
 import 'package:test_apis_project/views/screens/simple_contain/cart_item/first_screen.dart';
 import 'package:test_apis_project/views/screens/simple_contain/image_add_cart_screen/image_add_screen.dart';
 import 'package:test_apis_project/views/screens/simple_contain/s1_screen.dart';
+import 'package:test_apis_project/views/screens/user_details/user_details_screen.dart';
 import 'package:test_apis_project/views/screens/user_info_screen/user_info_screen.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+  // WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:ListDataScreen()
+      home: UserDetailsScreen()
+      //ListDataScreen()
       //UserInfoScreen()
       //SharedPreferncesMainScreen()
       //DeleteApiScreen()
