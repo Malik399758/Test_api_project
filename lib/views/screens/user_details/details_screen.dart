@@ -15,7 +15,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.item.firstName} ${widget.item.lastName}'),
+        title: Text('${widget.item.firstName} ${widget.item.lastName} ${widget.item.id}'),
         centerTitle: true,
       ),
       body: Center(
